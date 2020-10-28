@@ -14,9 +14,9 @@ class Bots{
     }
 
     public storageBots(bot){
-        this.bots.push(bot)
-        console.log(`${bot} Storaged`)
-        console.log('---------------------------------')
+        this.bots.push(bot);
+        console.log(`${bot} Storaged`);
+        console.log('---------------------------------');
     }
 
     public printBotCount(){
@@ -25,7 +25,7 @@ class Bots{
 }
 
 //so here we just create the bot instance that will always execute
-const botLogger = new Bots()
+const botLogger = new Bots();
 //we use object.freeze to make the object unchangable
 Object.freeze(botLogger);
 //finally we export the botlogger instance instead of the class
