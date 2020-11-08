@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Pokemon_1 = require("./Pokemon");
+var MoveTypes_1 = require("./MoveTypes");
+var Bulbasaur = new Pokemon_1.Pokemon('Bulbasaur', 'Grass', 100, new MoveTypes_1.GrassType);
+Bulbasaur.attackAlgorithm();
+var Charmander = new Pokemon_1.Pokemon('Charmander', 'Fire', 100, new MoveTypes_1.FireType);
+Charmander.attackAlgorithm();
+var Squirtle = new Pokemon_1.Pokemon('Squirtle', 'Water', 100, new MoveTypes_1.WaterType);
+Squirtle.attackAlgorithm();
