@@ -12,6 +12,7 @@
 <p>
     <b> Note: Each handler needs to have a reference to the other handler in case of success, if not it returns a message of error. The request needs to pass through each and every one handler. 
     </b>
+    <code>PD: I'll be using npx instead of compiling the js code</code>
 </p>
 <hr>
 <h3>
